@@ -1,0 +1,40 @@
+name: javerage_todos
+description: An example todos app that showcases bloc state management patterns.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+  flutter: ^3.35.0
+
+dependencies:
+  bloc: ^9.0.1
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  json_annotation: ^4.9.0
+  json_serializable: ^6.11.1
+  local_storage_todos_api:
+    path: packages/local_storage_todos_api
+  meta: ^1.16.0
+  todos_api:
+    path: packages/todos_api
+  todos_repository:
+    path: packages/todos_repository
+  uuid: ^4.5.1
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.7.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^10.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
